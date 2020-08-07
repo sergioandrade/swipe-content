@@ -1,0 +1,24 @@
+{
+  "name": "swipe-content",
+  "version": "1.0.0",
+  "description": "Swipe content",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioandrade/swipe-content.git"
+  },
+  "keywords": [
+    "swipe",
+    "javascript",
+    "dom"
+  ],
+  "author": "Sergio Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergioandrade/swipe-content/issues"
+  },
+  "homepage": "https://github.com/sergioandrade/swipe-content#readme"
+}

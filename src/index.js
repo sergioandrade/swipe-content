@@ -1,4 +1,9 @@
 function sum(a, b) {
-  return a + b;
+  return a + b
 }
-export default sum;
+
+function minus(a, b) {
+  return a - b
+}
+
+export { sum, minus }

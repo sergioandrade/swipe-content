@@ -4,7 +4,9 @@
   "description": "Swipe content",
   "main": "index.js",
   "scripts": {
-    "test": "yarn babel src --out-dir dist && jest"
+    "compile": "yarn babel src --out-dir dist",
+    "test": "yarn compile && jest",
+    "test:coverage": "yarn compile && jest --coverage"
   },
   "repository": {
     "type": "git",

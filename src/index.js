@@ -1,4 +1,4 @@
 function sum(a, b) {
-  return false;
+  return a + b;
 }
-export { sum };
+export default sum;

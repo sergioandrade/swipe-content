@@ -4,7 +4,7 @@
   "description": "Swipe content",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "yarn babel src --out-dir dist && jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/sergioandrade/swipe-content#readme",
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
     "jest": "^26.2.2"
   }
 }

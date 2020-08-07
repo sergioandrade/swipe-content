@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sergioandrade/swipe-content/issues"
   },
-  "homepage": "https://github.com/sergioandrade/swipe-content#readme"
+  "homepage": "https://github.com/sergioandrade/swipe-content#readme",
+  "devDependencies": {
+    "jest": "^26.2.2"
+  }
 }
